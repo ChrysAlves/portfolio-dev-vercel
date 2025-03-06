@@ -1,0 +1,246 @@
+#intro {
+  background-image: url(/assets/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.info {
+  width: 1040px;
+  height: 447px;
+  margin: 120px 163px 190px 163px;
+}
+
+header {
+  justify-items: center;
+}
+
+#avatar {
+  margin: 0px 284px 56px 284px;
+  position: relative;
+}
+
+#avatar .user-img {
+  border-color: var(--red);
+  border-style: solid;
+  border-radius: 100%;
+  width: 110px;
+}
+
+#avatar .code-img {
+  border-color: var(--gray-200);
+  position: absolute;
+  top: 75px;
+  left: 78px;
+}
+
+.text {
+  width: 680px;
+  height: 159px;
+  text-align: center;
+  color: white;
+}
+
+header .text h3 {
+  margin-bottom: 8px;
+}
+
+header .text h1 {
+  margin-bottom: 20px;
+}
+
+
+#tags {
+  gap: 16px;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 140px;
+  color: white;
+}
+
+.tag {
+  background-color: var(--gray-300);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag1 {
+  width: 114px;
+  height: 40px;
+}
+
+.tag2 {
+  width: 105px;
+  height: 40px;
+}
+
+.tag3 {
+  width: 92px;
+  height: 40px;
+}
+
+.tag4 {
+  width: 138px;
+  height: 40px;
+}
+
+.tag5 {
+  width: 106px;
+  height: 40px;
+}
+
+.tag6 {
+  width: 119px;
+  height: 40px;
+}
+
+.tag img {
+  width: 30px;
+  text-align: right;
+}
+
+.tag span {
+  margin-left: 8px;
+}
+
+.arrowdown {
+  display: flex;
+  justify-content: center;
+}
+
+
+#projects {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  justify-items: center;
+}
+
+#projects header {
+  width: 1040px;
+  height: 61px;
+  padding: 72px 163px 56px 163px;
+}
+
+#projectCard {
+  width: 1040px;
+  height: 584px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 163px 144px 163px;
+}
+
+.card {
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+}
+
+.card img {
+  width: 306px;
+  height: 156px;
+  margin: 12px 12px 20px 12px;
+  border-radius: 8px;
+}
+
+.about {
+  width: 306px;
+  height: 75px;
+  padding: 0px 12px 0px 12px;
+  flex-direction: column;
+  display: flex;
+  gap: 8px;
+}
+
+
+#services{
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-content: center;
+  background-color: var(--gray-100);
+}
+#services header{
+  margin-top: 88px;
+}
+#serviceCard{
+  width: 888px;
+  height: 155px;
+  display: flex;
+  margin: 0px 163px 144px 0px;
+}
+
+.cardService{
+  width: 280px;
+  height: 155px;
+  align-content: end;
+  border-radius: 12px;
+  border-style: solid;
+  margin: 0px 24px 0px 24px;
+  border-color: var(--gray-200);
+}
+
+.cardService img{
+  margin: 20px 212px 20px 20px;
+  width: 48px;
+  height: 48px;
+}
+
+
+#contatos{
+  background-image: url(/assets/Background_Intro.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 200px;
+}
+
+#contatos header{
+  margin: 128px 0px 40px 0px;
+}
+
+#links{
+ justify-items: center;
+}
+.contactCard{
+  width: 400px;
+  height: 68px;
+  background-color: var(--gray-300);
+  margin-bottom: 16px;
+  border-radius: 8px;
+  display: flex;
+  gap: 200px;
+}
+
+.contactCardabout{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  line-height: 140%;
+}
+
+#links figure:nth-child(2){
+  gap: 180px;
+}
+#links figure:nth-child(1){
+  gap: 190px;
+}
+
+.contactCard img{
+  width: 28px;
+  height: 28px;
+  margin: 20px 0px 20px 20px;
+  color: var(--gray-400);
+}
+
+.contactCard a{
+  height: 20px;
+  width: 20px;
+}
